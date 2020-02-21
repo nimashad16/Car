@@ -8,5 +8,9 @@ public class SuperCar extends Car {
 	public String impress() {
 		return "awesome";
 	}
+	
+	public String possibleMethod() {
+		return "This is for a commmit";
+	}
 
 }
