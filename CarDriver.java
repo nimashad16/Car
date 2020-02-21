@@ -3,6 +3,7 @@ public class CarDriver {
 	public static void main(String[] args) {
 		Car a = new Car(10);
 		Car b = new Car(10);
+		Car c = new Car(10);
 		
 		System.out.println("Range: " + b.toString());
 		Car c = a;
