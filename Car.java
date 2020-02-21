@@ -1,6 +1,7 @@
 
 public class Car {
 	private int range;
+	private int forty;
 
 	public Car(int data) {
 		this.range = data;		
