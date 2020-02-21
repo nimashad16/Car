@@ -6,6 +6,7 @@ import org.junit.Test;
 public class CarTest {
 	private static final int HUNDRED = 100;
 	Car car;
+    Car b;
 	
 	@Before
 	public void setUp() throws Exception{
