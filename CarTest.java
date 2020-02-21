@@ -6,7 +6,7 @@ import org.junit.Test;
 public class CarTest {
 	private static final int HUNDRED = 100;
 	Car car;
-    Car b;
+	private int fifty = 50;
 	
 	@Before
 	public void setUp() throws Exception{
@@ -40,7 +40,12 @@ public class CarTest {
 		assertEquals(false, y.toString());
 		assertFalse(car.equals(y));
 	}
-
+	@Test
+	public void tester() {
+		String expected =  "40";
+		String actual = Integer.toString(fifty);
+		System.out.println(fifty);
+	}
 	@Test
 	public void testToString() {
 		//Stick to stringent government requirements
